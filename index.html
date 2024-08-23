@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>班级百科 - F4男团</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #202122;
+            font-size: 14px;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #a2a9b1;
+            padding: 10px 0;
+            margin-bottom: 15px;
+        }
+        .header-content {
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #000;
+            text-decoration: none;
+        }
+        .search-bar {
+            display: flex;
+        }
+        .search-bar input {
+            padding: 6px;
+            border: 1px solid #a2a9b1;
+            border-right: none;
+            border-radius: 2px 0 0 2px;
+            width: 200px;
+        }
+        .search-bar button {
+            padding: 6px 12px;
+            background-color: #36c;
+            color: white;
+            border: none;
+            border-radius: 0 2px 2px 0;
+            cursor: pointer;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            border-bottom: 1px solid #a2a9b1;
+            padding-bottom: 3px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+        h3 {
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-bottom: none; /* 移除h3下方的线段 */
+        }
+        h4 {
+            font-size: 16px;
+            border-bottom: none;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        .toc {
+            background-color: #f8f9fa;
+            border: 1px solid #a2a9b1;
+            padding: 8px;
+            display: inline-block;
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
+        .toc h2 {
+            margin-top: 0;
+            font-size: 16px;
+            border-bottom: none;
+        }
+        .toc ul {
+            list-style-type: none;
+            padding-left: 15px;
+            margin: 5px 0;
+        }
+        .toc ul ul {
+            padding-left: 20px;
+        }
+        .toc a {
+            color: #0645ad;
+            text-decoration: none;
+        }
+        .toc a:hover {
+            text-decoration: underline;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 10px 0;
+            font-size: 13px;
+        }
+        th, td {
+            border: 1px solid #a2a9b1;
+            padding: 6px;
+        }
+        th {
+            background-color: #eaecf0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .infobox {
+            float: right;
+            margin: 0 0 15px 15px;
+            border: 1px solid #a2a9b1;
+            padding: 8px;
+            background-color: #f8f9fa;
+            width: 270px;
+            font-size: 13px;
+        }
+        .infobox h3 {
+            margin-top: 0;
+            text-align: center;
+        }
+        .infobox img {
+            display: block;
+            margin: 0 auto;
+            max-width: 250px;
+        }
+        .uninfobox {
+            float: left;
+            margin: 15px 15px 0 0;
+            border: 1px solid #a2a9b1;
+            padding: 8px;
+            background-color: #f8f9fa;
+            width: 270px;
+            font-size: 13px;
+        }
+        .uninfobox img {
+            display: block;
+            margin: 0 auto;
+            max-width: 250px;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            border-top: 1px solid #a2a9b1;
+            padding: 15px 0;
+            margin-top: 15px;
+            text-align: center;
+            font-size: 12px;
+            color: #72777d;
+        }
+        @media (max-width: 768px) {
+            .infobox {
+                float: none;
+                width: 100%;
+                margin: 15px 0;
+            }
+            .header-content {
+                flex-direction: column;
+            }
+            .search-bar {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 页面内容保持不变 -->
+    <div class="header">
+        <div class="header-content">
+            <a href="#" class="logo">12班班级百科</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>F4男团</h1>
+        <p>（2022-）</p>
+            <table>
+                <tr>
+                    <th>存在</th>
+                    <td>2022-现在</td>
+                </tr>
+                <tr>
+                    <th>人数</th>
+                    <td>五人</td>
+                </tr>
+                <tr>
+                    <th>领导人</th>
+                    <td>无</td>
+                </tr>
+            </table>
+        </div>
+
+        <p>F4是一个班级团体，是<a href="https://shierban-github-io.pages.dev/">十二班</a>最早诞生的一批团体之一，同时历史也是最悠久的。曾在初一学期作为<a href="https://shierban-github-io.pages.dev/">十二班</a>最霸权的班级团体。</p>
+
+        <div class="toc">
+            <h2>目录</h2>
+            <ul>
+                <li><a href="#section1">1. 历史背景</a>
+                    <ul>
+                        <li><a href="#section1-1">1.1 早期发展</a></li>
+                        <li><a href="#section1-2">1.2 现代演变</a></li>
+                    </ul>
+                </li>
+                <li><a href="#section2">2. 主要特征</a>
+                    
+                </li>
+                <li><a href="#section3">3. 争议</a>
+                    
+                </li>
+                
+            </ul>
+        </div>
+
+        <h2 id="section1">1. 历史背景</h2>
+
+        <h3 id="section1-1">1.1 早期发展</h3>
+        <p>F4男团诞生于初一上学期，由樊Z（学生）、曹B（学生）、胡L（学生）和程Y（学生）四位学生组建。该团体常活跃于<a href="https://shierban-github-io.pages.dev/">十二班</a>各项活动中，如劳动节、儿童节、游学和拍卖会等。</p>
+<p></p>
+  <p>F4男团是早期班级最团结和最霸权的团体，几人在早期结实了友好的社交关系。曹B（学生）和樊Z（学生）曾在中午组织羽毛球竞赛，吸引大量班内与班外同学参与这项运动。</p>
+  <p></p>
+  <p>成员曹B（学生）和樊Z（学生）在早期相处中产生过一些矛盾，但总能在不久后重新合拢。F4男团内部称程Y（学生）为“懂哥”，被列入<a href="https://liuxy-github-io.pages.dev/">班级流行语</a>。</p>
+  <p></p>
+  <p>四人还在一段时间沉迷于音乐和说唱的爱好。但在之后一段时间由于没有共同话题，团体处于散乱状态。</p>
+  <p></p>
+  <p>F4男团曾与王ZHuan（学生）交锋。F4成员普遍认为王ZHuan（学生）的鞋是假鞋。进行了取外号等多项行动制裁王ZiHuan（学生）。最后王ZHuan（学生）被<a href="https://penny-github-io-7sf.pages.dev/">彭</a>（教师）平反，且展开了“清除外号”行动。</p>
+  <p></p>
+  <p>刘J（学生）与曹B（学生）等人的矛盾打乱了F4男团的内部平衡。以樊Z（学生）为首在这次风波中站在刘J（学生）一边，其在中期转变为中立立场。以曹B（学生）为首的派别反对刘J（学生）。因樊Z（学生）对此次事件转变为中立态度，F4团内的分歧很快平息。</p>
+  <p></p>
+  <p>在和刘J（学生）的矛盾后，F4与刘J（学生）进入了一段友好期。刘J（学生）在这时算得上半个F4成员。在之后F4对刘J（学生）的再次转变，虽然表面上双方还处于友好期。</p>
+  <p></p>
+  <p>蓝D（学生）在第二学期加入F4，并将拳击文化引入该团体，使部分成员学习蓝D（学生）在教室内练拳击。但蓝D（学生）误伤秦X（学生）的事污名化了F4，<a href="https://penny-github-io-7sf.pages.dev/">彭</a>对F4部分成员进行沟通，其要求F4成员引导蓝D（学生）树立正确的价值观。</p>
+  <p></p>
+  <p>F4在微信成立了总部，便于沟通和商讨。</p>
+  <p></p>
+  <p>F4在<a href="https://shierban-github-io.pages.dev/">十二班</a>班内开展的拍卖会活动展现出极佳的团结性，成员的相互配合促使F4成为此次活动的最大赢家。</p>
+  <p></p>
+  <p>新兴团体“呆呆团”在第二学期对F4的态度不友好。F4部分成员被列入呆呆团的敌对势力。呆呆团展开大量动员针对F4部分成员作出行动。在本学期末以樊Z（学生）为代表与呆呆团进行对话，重新建立了外交关系并宣布和平。</p>
+  
+        <h3 id="section1-2">1.2 现代演变</h3>
+        <p>F4男团在后期的霸权地位逐渐被新兴组织替代，但团体仍在班内有着巨大的影响力，发挥着不可磨灭的作用。</p>
+
+        <h2 id="section2">2. 主要特征</h2>
+        <p>F4在日常状态下较为松散。而在活动和特殊行动中显得极为团结。</p>
+  <p></p>
+  <p>F4在体育方面和<a href="https://penny-github-io-7sf.pages.dev/">彭老师</a>心中的地位有很大的优势。F4成员多次响应老师的号召，进行劳务活动。</p>
+       
+        <table>
+            <tr>
+                <th>姓名</th>
+                <th>加入时间</th>
+                <th>重要性</th>
+            </tr>
+            <tr>
+                <td>樊Z</td>
+                <td>初一上</td>
+                <td>核心</td>
+            </tr>
+            <tr>
+                <td>曹B</td>
+                <td>初一上</td>
+                <td>核心</td>
+            </tr>
+            <tr>
+                <td>胡L</td>
+                <td>初一上</td>
+                <td>比较重要</td>
+            </tr>
+          <tr>
+                <td>程Y</td>
+                <td>初一上</td>
+                <td>一般</td>
+          </tr>
+          <tr>
+                <td>蓝D</td>
+                <td>初二上</td>
+                <td>比较重要</td>
+          </tr>
+        </table>
+
+        <h2 id="section3">3. 争议</h2>
+        <p>有观点认为，该团体有时会出现针对同学的现象，在道德方面需要改进。</p>
+
+        
+
+    <div class="footer">
+        <p>本页面最后编辑于2024年几月几日 (星期几) 不知道（UTC）。</p>
+        <p>本站的全部文字在知识共享 署名-相同方式共享 3.0协议之条款下提供，附加条款亦可能应用。</p>
+    </div>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
